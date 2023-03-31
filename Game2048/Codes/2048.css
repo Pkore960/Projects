@@ -1,0 +1,127 @@
+body {
+    font-family: "Microsoft YaHei", sans-serif, 'Microsoft Sans Serif', 'Microsoft JhengHei UI';
+    text-align: center;
+}
+
+hr {
+    width: 500px;
+}
+
+h1 {
+    color: #f65d3b;
+    font-size: xx-large;
+}
+
+h3,p {
+    color: #0a8cf0;
+    /* background: #c5d890;
+    border-radius: 2ch;
+    width: 200px;
+    margin-left: 600px; */
+}
+
+span {
+    color: rgb(15, 15, 239);
+}
+
+a {
+    color: #c0eb71;
+}
+
+
+#board {
+    height: 400px;
+    width: 400px;
+    background-color: rgb(233, 215, 176);
+    border: 6.5px solid rgb(132, 132, 92);
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+input {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.792);
+    border-radius: 2ch;
+}
+
+
+.tile {
+    width: 90px;
+    height: 90px;
+    color: rgb(247, 180, 11);
+    border: 5px solid rgb(132, 132, 92);
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.x2 {
+    background-color: #f8dcbf;
+    color: black;
+
+}
+
+.x4 {
+    background-color: #f3d398;
+    color: black;
+}
+
+.x8 {
+    background-color: #f4b17a;
+    color: black;
+}
+
+.x16 {
+    background-color: #f59575;
+    color: black;
+}
+
+.x32 {
+    background-color: #f57c5f;
+    color: black;
+}
+
+.x64 {
+    background-color: #f65d3b;
+    color: black;
+}
+
+.x128 {
+    background-color: #c0eb71;
+    color: black;
+}
+
+.x256 {
+    background-color: #d7e333;
+    color: black;
+}
+
+.x512 {
+    background-color: #bef81e;
+    color: black;
+}
+
+.x1024 {
+    background-color: #eec744;
+    color: black;
+}
+
+.x2048 {
+    background-color: #ecc230;
+    color: black;
+}
+
+.x4096 {
+    background-color: #f2a808;
+    color: black;
+}
+
+.x8192 {
+    background-color: #f2a808;
+    color: black;
+}
